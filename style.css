@@ -79,3 +79,14 @@ button:hover{
 p{
     margin-top: -60px;
 }
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    input {
+        width: 80%; /* Adjust input width for smaller screens */
+    }
+    button {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
